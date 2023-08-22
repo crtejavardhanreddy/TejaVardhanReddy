@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { Appbar,Title } from 'react-native-paper';
 import {View,Text} from 'react-native'
-import Header from './Header'
+import Header from './header'
+
 export default Search = () => {
 
   return (
@@ -9,7 +10,7 @@ export default Search = () => {
     style={{flex:1}}>
       <Header/>
       <Text>Search Screen</Text>
-      </View>
+    </View>
   );
 }
 
