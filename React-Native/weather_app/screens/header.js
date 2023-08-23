@@ -2,23 +2,21 @@ import * as React from 'react';
 import { Appbar,Title } from 'react-native-paper';
 import {View,Text} from 'react-native'
 
-export default Header = () => {
+export default Header = (props) => {
 
   return (
-     <Appbar.Header
+     <Appbar
     theme={{
       colors:{
         primary:"#00aaff"
       }
     }}
-  
+    style={{flexDirection:"row",justifyContent:"center"}}
     >
 
     <Title>
-      Weather App
+       {props.name}
     </Title>
-    </Appbar.Header>
-    
-    
+    </Appbar>    
  );
 }
