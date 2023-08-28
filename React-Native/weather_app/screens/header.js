@@ -8,13 +8,13 @@ export default Header = (props) => {
      <Appbar
       theme={{
         colors:{
-          primary:"#00aaff",
+          primary:"green",
         }
     }}
     style={{flexDirection:"row",justifyContent:"center"}}
     >
 
-    <Title>
+    <Title style={{color:"green"}}>
        {props.name}
        
     </Title>

@@ -11,13 +11,17 @@ export default Search = () => {
       fetch("https://autocomplete.wunderground.com/aq?query="+text)
       .then(item=>item.json())
       .then(cityData=>{
-        // console.log(cityData)
+        console.log(cityData)
         setCities(cityData.RESULTS.slice(0,9))
+        
+      }).catch((err)=>{
+console.log
+
       })
   }
   return (
     <View>
-      <Header name="Search Screen"/>
+      <Header  name="Search Screen"/>
         <TextInput label ="city name"
         theme={{colors:{primary:"#00aaff"}}}
         value = {city}
@@ -34,9 +38,7 @@ export default Search = () => {
           data={cities}
           renderItem={({item})=>{
             return (
-              <Card
-              style={{margin:2,padding:12}}
-              >
+              <Card style={{margin:2,padding:12}}>
                 <Text>{item.name}</Text>
               </Card>
             )
