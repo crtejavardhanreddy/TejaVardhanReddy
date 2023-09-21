@@ -1,15 +1,17 @@
-from flask import Flask
+from flask import Flask, redirect, url_for
 
 # WSGI Applitaion
 app=Flask(__name__)
 
-@app.route('/')
-def Welcome():
-    return "Hi My name is Teja Hell"
+# Build the URL dynamically
+@app.route('/eligible/<int:age>')
+def eligible(age):
+    return 'Eligible' if age>20 else 'Not Eligible'
 
-@app.route('/info')
-def Info():
-    return "I am working at InfobellIT solutions"
+@app.route('/age/<int:age>')
+def Age(age):
+    criteria = 'eligible'
+    return redirect(url_for(criteria,age=age))
 
 
 if __name__=='__main__':
