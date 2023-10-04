@@ -1,6 +1,11 @@
 ## Integrate HTML with Flask
-
 # GET and POST
+# Jinja2 template Engine
+'''
+{%...%} for,while, if etc statements
+{{  }} expressions to print output
+{#...#} this is for comments
+'''
 
 from flask import Flask, redirect, url_for, render_template, request
 
@@ -11,11 +16,6 @@ app=Flask(__name__)
 def welcome():
     return render_template('index.html')
 
-# Build the URL dynamically
-# @app.route('/success/<int:score>')
-# def success(score):
-#     return 'The user is passed with '+ str(score)
-    
 @app.route('/fail/<int:score>')
 def fail(score):
     res = ""
@@ -23,7 +23,8 @@ def fail(score):
         res = "PASS"
     else:
         res = "FAIL"
-    return render_template('result.html',result = res, marks =score)
+    exp = {'score':score,'res':res}
+    return render_template('result.html',result = exp)
 
 
 # @app.route('/results/int:marks>')
