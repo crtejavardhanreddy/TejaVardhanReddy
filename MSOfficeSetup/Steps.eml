@@ -1,0 +1,389 @@
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=gS8FyHB+qZQJ5wYdXeWraHoIqX0isDbp1Gsy1hIZRZY0fgbQ7GCLkgYjFNewHxhKiMg8WZZoUnWTA2h05BUBBk56r0znCLaoImy/coylXtJar9nXUe7rSEHyOBvm4x8Aqg41aN12c32OcTWPqAH+DYcR//UEIQzT54XsNBNHbnIg0QoZrN3gVSDA0dQ3+0ymhFCitx5bL+Inxn9dUETjD3F0U9G0m9cmpH9N9r8ZTDLL/BLz75SeusIRfPRBA4RqLQtblKfXzFm/IAEI6xtHXMRaZQef22BODV+nUhDqg0rllHg1h3KQ34Sn1071TfpsTd+V/RXdreLx+qGmA4ADIw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=yjC6Gh7wrtg/2eBwd/Aw2IF7O8bWA0u11DIe3FSYzO8=;
+ b=TShA+0NqkGElDY/iEfpV9/xheImYmapWCug37fTfSpJrfjK5vwI+DjEKDyCHkdVIBnFgo/DY3F6YFi1LrtB5nsvrCpbFyoxvkOmNpBLwVCL5z1P5WuR81ZSEl3/Q1+ItXUskS4fQKiOzfIoiOeMymRx4uuNUu5D9uUTnTJUv0/rWJur1vdHKWZn0xaXv2KI0P5NnpEHS2qDH9VlNfWNHKgDIrZCgn9vS+r0L9xUhQzjhYQFLi0bpbI8YkEW0JIg2GdfSIHBBMgl1uMMX6eF3efv3+f8HNqV0lWJBZZS7P3vw4qVueQ/qSud1/jrrPsugGorLLpfJWKU2ioHYCA1MLg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=infobellit.com; dmarc=pass action=none
+ header.from=infobellit.com; dkim=pass header.d=infobellit.com; arc=none
+Received: from PN2P287MB0368.INDP287.PROD.OUTLOOK.COM (2603:1096:c01:f1::10)
+ by PN3P287MB1980.INDP287.PROD.OUTLOOK.COM (2603:1096:c01:1d2::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6863.37; Mon, 9 Oct
+ 2023 05:24:17 +0000
+Received: from PN2P287MB0368.INDP287.PROD.OUTLOOK.COM
+ ([fe80::72c2:4f1b:d5a0:cd82]) by PN2P287MB0368.INDP287.PROD.OUTLOOK.COM
+ ([fe80::72c2:4f1b:d5a0:cd82%7]) with mapi id 15.20.6863.032; Mon, 9 Oct 2023
+ 05:24:17 +0000
+From: C R Tejavardhan Reddy <crreddy@infobellit.com>
+To: "Crtejavardhanreddy123@gmail.com" <Crtejavardhanreddy123@gmail.com>
+Subject: Fwd: MS Office download and hack key
+Thread-Topic: MS Office download and hack key
+Thread-Index: AQHZ+nCXjdoPQzKBF0qm6MT5eLvGa7BA7ML7
+Date: Mon, 9 Oct 2023 05:24:17 +0000
+Message-ID: <PN2P287MB03681A02CEB3B57D4E0608AFDECEA@PN2P287MB0368.INDP287.PROD.OUTLOOK.COM>
+References: <MAZP287MB0541B0CCEDC56C47D5218BF1DCCEA@MAZP287MB0541.INDP287.PROD.OUTLOOK.COM>
+In-Reply-To: <MAZP287MB0541B0CCEDC56C47D5218BF1DCCEA@MAZP287MB0541.INDP287.PROD.OUTLOOK.COM>
+Accept-Language: en-GB, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=infobellit.com;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PN2P287MB0368:EE_|PN3P287MB1980:EE_
+x-ms-office365-filtering-correlation-id: 7c79cc81-630c-4a34-056a-08dbc887fbe4
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: 2BBDNjVFnyjLstf3+kdQ/spl9JSLUa48ayjk7LtMi6E9FOp+J5oyVC3aoz0C/OmYR+Rdj7iaWoMnacmAHKo2cQMMVE1JOjGU6HeTdfP8UGbhAKxrVjGTKpCfhx6WzMydbBG3BewX6Nxj1b95GXhDLFCu89E9fHcYiOB1tyPwnPyJYYTBPi7u6Fh/GFz4PxX40bmbq59b0BD09UUTQV2gzE+C/5oNRcFd8rxc1HRFMpEDbMXtsOz26u+m70nhqFOl6MChOmvcvIj8T3pkbXQD+gcmLEDl39XPg3+FrODWnrK1itygSUqoKUz72JhOSfz0tMLSmTVCzI5Rt1bdsrbe9F2WysKSC1xMoWnXwR9tnqEYOh2cbV5V+3YjLE6JOEvYbL2jffrUbaMkKMG2RmoiP659sggCnBwVnmA+srHr3j3szaF5uElQ4yr6xks1ZpIEO9eZgY9RaSneM4PKwwz1WRH+W7pxhsoiNKRxhE2vI7AHQ/Ud3l66lWOkLHjkOSLDGB2hBRU/oZWNrbeRVAun44q6rMzxFPHi1MmHyh1ALbUuGGmGJBtNrxkYMV8LyjJTam+dBMX9SdBZZia25XOyTNUyOQf9RY8COXrwSGE46FNDvCbeh5DGLZOJPdc5LzIh
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:PN2P287MB0368.INDP287.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230031)(39830400003)(396003)(366004)(136003)(346002)(376002)(230922051799003)(451199024)(64100799003)(186009)(1800799009)(55016003)(66899024)(83380400001)(26005)(166002)(66946007)(66476007)(66556008)(316002)(66446008)(76116006)(6916009)(64756008)(8936002)(5660300002)(8676002)(52536014)(41300700001)(7696005)(6506007)(53546011)(71200400001)(9686003)(2906002)(45080400002)(966005)(478600001)(33656002)(38070700005)(38100700002)(122000001)(86362001)(19627405001)(460985005);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?us-ascii?Q?LoXjp+jt7kpRyHc4Hjj5WRm/xM7YVpj3dU9bi7JyYVl4KPgfIxVVicfjhpQZ?=
+ =?us-ascii?Q?qfa9evQLApfSQz6ow2YOmmG0U7QCCvYmDAxjSPxa2UlHMSjyt4QwparAvzY3?=
+ =?us-ascii?Q?Zi7AvJLBciTGRm5rDZ9B4/wLp8SByqlDLkbb4Zgo5155/PbGth/R0Lr1KLRV?=
+ =?us-ascii?Q?ueJpYHLHkb+YYskGk2WCYJj379XG518iIh+HXpJ1Qs23L4PIad4ARnpgT6cu?=
+ =?us-ascii?Q?kU3duhxtTLufrXi0fQzHgcISXRSHU8FrPu8o9LwSKC6obFD87vdFUUuo68UA?=
+ =?us-ascii?Q?HMjwVHC8mGM0i2PYT4vFoI3xY5N9cAO2munCfQFG06eKFVQXXVxOb5mkWG86?=
+ =?us-ascii?Q?+ZeOT1PlhUBEgaIceyy1n2TWJNJNFXnnTm0qu6fWVieLlNTKBQ2bFuHZ8w8l?=
+ =?us-ascii?Q?ocJ4u/0OyRpXU8qLgmVJyphU4pUmbpxBkeQj7IJl9G9rk0Cj7bS6DQSPjXQ5?=
+ =?us-ascii?Q?X+FSGNqdAc0hkrpmeJsFm/PF8L2eUpkHmbtzFHh05ryTmXdHg1WbxJMxAf8V?=
+ =?us-ascii?Q?x9LyMJ5iyFsZqBMM6AVRkEEjJhv6IRVRHPJT4C6+GfRByZMdwKoO5Xqa/vK8?=
+ =?us-ascii?Q?gac/P6YCQFNKEza1oGAk+U4PcB4UvUt3PLO+srNmSdvpkic5DVUy58IkgRbF?=
+ =?us-ascii?Q?/a+lFuWZM97scx+QixuudaBJ/i20UT3STTtLh1yor+7Ph/y0YxAizg0a7lRJ?=
+ =?us-ascii?Q?5V4hwVQNLH+CyUdxkuRVU8fTJC7VBC47jrS+EzFnbwirUnSG+4xE8GbpAIMm?=
+ =?us-ascii?Q?3ZY4N1FsOIcr3oa9eKxpLzfXAI+lGJ+LTSPYLvQKVwGjPYZOlw2smuUqxrdv?=
+ =?us-ascii?Q?jo8qIbzDkL9ll7tlpRD6/hvfCbfoe+Pp1tc1ho/koQQejZTojxpD8iDVXATs?=
+ =?us-ascii?Q?fLQV2vjtN+cMoJ+HWggUXUVWjC6N3fXz22RZrrQDxcVu3LQqmJiKXkCrnG0L?=
+ =?us-ascii?Q?sKECu+jRkbnVSDey/wnrF2MJwnm3SrbqGUKQzR3m+XI70KVUxlvTu3CRriV/?=
+ =?us-ascii?Q?v02WIEgTMMrPchJsQfSR1I4OZPsJIL+DIGnu8C+KHgdEiwjv0xVelyi69nGN?=
+ =?us-ascii?Q?cwbXRUUxg0w4UvL9DHZcyUyAPFEDML8ZzieUMTAjoPi5WUHBDf/2h7w/0foJ?=
+ =?us-ascii?Q?m7I9VwwletVERG+XPmbaES2WGR6YL9xXM7FjV1TvWc8MyMK3kaJYyyl5oO0t?=
+ =?us-ascii?Q?XnNsGXjKbQQfIaN2vsUtMirhYPTP5JVfEm5GEkBIOVfv2pfB54FVMW2GXrvJ?=
+ =?us-ascii?Q?TTkenYMuA/qsJoPrqV65v/FsQFVxhaeSbt23djNPgrK3BKF09XgyHGRJhP2r?=
+ =?us-ascii?Q?J7KCT95EvYnqOjK9nK5RR5CmlKyxkdsqN5/HNdv+IxHEn8vxKyNLY+vFlrOX?=
+ =?us-ascii?Q?hS7h3gaw/qHIVJsXaNYz6QyVCF1pdN+FH8bYHdHXxYXci/jYHXNHJNubVFMz?=
+ =?us-ascii?Q?XwIMDOosOzDRSQjPLYhyeo5k/Vn67BGfdiIotbyOoBGxrlIylM9TyO8UAmnd?=
+ =?us-ascii?Q?2XcIqwwp5k1h6OfQ26LU3AYE6XyU6g4moglsdeC4wIfo/8zTagaz2NGWuQY6?=
+ =?us-ascii?Q?UmEbttCP4721wmzF7VltisMgQNMASwOJbGnbuHLXhI+lxtvK22ChSt/PBgc9?=
+ =?us-ascii?Q?Ew=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PN2P287MB03681A02CEB3B57D4E0608AFDECEAPN2P287MB0368INDP_"
+X-OriginatorOrg: infobellit.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PN2P287MB0368.INDP287.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7c79cc81-630c-4a34-056a-08dbc887fbe4
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Oct 2023 05:24:17.5127
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e8f254ca-58a4-4463-a209-75bd0ddb57b4
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: Np/sG8n02dVk58xqMJZOswD1ZMqLCoJWD9jRMPa3Nwjs6JkLCKu5S+1l13ww+yE/1wIZnhLj3/dlQ+CH7bVH/Q==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PN3P287MB1980
+MIME-Version: 1.0
+
+--_000_PN2P287MB03681A02CEB3B57D4E0608AFDECEAPN2P287MB0368INDP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Sent from Outlook for Android<https://aka.ms/AAb9ysg>
+________________________________
+From: karthik kovi <karthikkovi@infobellit.com>
+Sent: Monday, October 9, 2023 10:53:11 AM
+To: C R Tejavardhan Reddy <crreddy@infobellit.com>
+Cc: karthik.kovi2001@gmail.com <karthik.kovi2001@gmail.com>; karthikkovik@g=
+mail.com <karthikkovik@gmail.com>; Shaik Amreen Kousar <skousar@infobellit.=
+com>; shaikamreenkousar@gmail.com <shaikamreenkousar@gmail.com>
+Subject: MS Office download and hack key
+
+
+https://www.microsoft.com/en-us/download/details.aspx?id=3D49117
+
+
+
+1.execution of exe file downloaded from above dowload link
+
+2.delete all file except office 2021 XML and setup file
+
+3.open XML in notepad and then remove id attribute element right below of d=
+ocument
+
+4.now save and close file
+
+5.navigate to setup file location in cmd
+
+6.copy paste below command in cmd and run
+
+
+
+.\setup.exe /configure .\configuration-Office2021Enterprise.xml
+
+
+
+
+product key:
+
+Save below code in notepad and save it as .cmd file and then run as adminis=
+trator.Now we can have access to all office apps.
+
+@echo off
+title Office Activation Wizard&cls&echo =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&echo Office 2019 Standard and=
+ Office 2019 Pro Plus Activation&echo =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&echo.&echo #Supported products:&=
+echo - Microsoft Office Standard 2019&echo - Microsoft Office Professional =
+Plus 2019&echo.&echo.&(if exist "%ProgramFiles%\Microsoft Office\Office16\o=
+spp.vbs" cd /d "%ProgramFiles%\Microsoft Office\Office16")&(if exist "%Prog=
+ramFiles(x86)%\Microsoft Office\Office16\ospp.vbs" cd /d "%ProgramFiles(x86=
+)%\Microsoft Office\Office16")&(for /f %%x in ('dir /b ..\root\Licenses16\P=
+roPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%%x"=
+ >nul)&(for /f %%x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') d=
+o cscript ospp.vbs /inslic:"..\root\Licenses16\%%x" >nul)&echo.&echo =3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&ec=
+ho Activating your Office...&cscript //nologo slmgr.vbs /ckms >nul&cscript =
+//nologo ospp.vbs /setprt:1688 >nul&cscript //nologo ospp.vbs /unpkey:6MWKP=
+ >nul&cscript //nologo ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP >nul&=
+set i=3D1
+:server
+if %i%=3D=3D1 set KMS_Sev=3Dkms7.microsoft.com<http://kms7.microsoft.com/>
+if %i%=3D=3D2 set KMS_Sev=3Dkms8.microsoft.com<http://kms8.microsoft.com/>
+if %i%=3D=3D3 set KMS_Sev=3Dkms9.microsoft.com<http://kms9.microsoft.com/>
+if %i%=3D=3D4 goto notsupported
+cscript //nologo ospp.vbs /sethst:%KMS_Sev% >nul&echo =3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&echo.&echo.
+cscript //nologo ospp.vbs /act | find /i "successful" && (echo.&echo =3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&ec=
+ho.&echo&goto halt
+:notsupported
+echo.&echo =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D&echo Sorry! Your version is not supported.&echo
+:halt
+pause >nul
+
+
+
+--_000_PN2P287MB03681A02CEB3B57D4E0608AFDECEAPN2P287MB0368INDP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+</head>
+<body>
+<div><br>
+</div>
+<div id=3D"ms-outlook-mobile-signature" dir=3D"auto">
+<div><br>
+</div>
+Sent from <a href=3D"https://aka.ms/AAb9ysg">Outlook for Android</a></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> karthik kovi &lt;kart=
+hikkovi@infobellit.com&gt;<br>
+<b>Sent:</b> Monday, October 9, 2023 10:53:11 AM<br>
+<b>To:</b> C R Tejavardhan Reddy &lt;crreddy@infobellit.com&gt;<br>
+<b>Cc:</b> karthik.kovi2001@gmail.com &lt;karthik.kovi2001@gmail.com&gt;; k=
+arthikkovik@gmail.com &lt;karthikkovik@gmail.com&gt;; Shaik Amreen Kousar &=
+lt;skousar@infobellit.com&gt;; shaikamreenkousar@gmail.com &lt;shaikamreenk=
+ousar@gmail.com&gt;<br>
+<b>Subject:</b> MS Office download and hack key</font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span lang=3D"EN-US"><a href=3D"https://www.microsoft.com/en-us/download/de=
+tails.aspx?id=3D49117" target=3D"_blank" data-saferedirecturl=3D"https://ww=
+w.google.com/url?q=3Dhttps://www.microsoft.com/en-us/download/details.aspx?=
+id%3D49117&amp;source=3Dgmail&amp;ust=3D1696915106660000&amp;usg=3DAOvVaw0z=
+6vVRc-WxyL1ZDPhFW_VK" id=3D"OWA748b100f-da97-fcf4-ec8c-62b2cfc0da0f" class=
+=3D"x_OWAAutoLink x_ContentPasted0" style=3D"color:rgb(17,85,204)">https://=
+www.microsoft.com/en-<wbr>us/download/details.aspx?id=3D<wbr>49117</a><u cl=
+ass=3D"x_ContentPasted0"></u><u class=3D"x_ContentPasted0"></u></span></p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span lang=3D"EN-US" class=3D"x_ContentPasted0"><u class=3D"x_ContentPasted=
+0"></u>&nbsp;<u class=3D"x_ContentPasted0"></u></span></p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span lang=3D"EN-US" class=3D"x_ContentPasted0">1.execution of exe file dow=
+nloaded from above dowload link<u class=3D"x_ContentPasted0"></u><u class=
+=3D"x_ContentPasted0"></u></span></p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span lang=3D"EN-US" class=3D"x_ContentPasted0">2.delete all file except of=
+fice 2021 XML and setup file<u class=3D"x_ContentPasted0"></u><u class=3D"x=
+_ContentPasted0"></u></span></p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span lang=3D"EN-US" class=3D"x_ContentPasted0">3.open XML in notepad and t=
+hen remove id attribute element right below of document<u class=3D"x_Conten=
+tPasted0"></u><u class=3D"x_ContentPasted0"></u></span></p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span lang=3D"EN-US" class=3D"x_ContentPasted0">4.now save and close file<u=
+ class=3D"x_ContentPasted0"></u><u class=3D"x_ContentPasted0"></u></span></=
+p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span lang=3D"EN-US" class=3D"x_ContentPasted0">5.navigate to setup file lo=
+cation in cmd<u class=3D"x_ContentPasted0"></u><u class=3D"x_ContentPasted0=
+"></u></span></p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span lang=3D"EN-US" class=3D"x_ContentPasted0">6.copy paste below command =
+in cmd and run<u class=3D"x_ContentPasted0"></u><u class=3D"x_ContentPasted=
+0"></u></span></p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span class=3D"x_ContentPasted0" style=3D"font-size:10.5pt; font-family:Rob=
+oto; background:rgb(249,249,249); color:rgb(3,3,3)"><u class=3D"x_ContentPa=
+sted0"></u>&nbsp;<u class=3D"x_ContentPasted0"></u></span></p>
+<p class=3D"x_MsoNormal" style=3D"margin:0px; font-family:Arial,Helvetica,s=
+ans-serif; font-size:small; color:rgb(34,34,34); background-color:rgb(255,2=
+55,255)">
+<span class=3D"x_ContentPasted0" style=3D"font-size:10.5pt; font-family:Rob=
+oto; background:rgb(249,249,249); color:rgb(3,3,3)">.\setup.exe /configure =
+.\configuration-<wbr class=3D"x_ContentPasted0">Office2021Enterprise.xml<u =
+class=3D"x_ContentPasted0"></u><u class=3D"x_ContentPasted0"></u></span></p=
+>
+<p class=3D"x_MsoNormal x_ContentPasted0" style=3D"margin:0px; font-family:=
+Arial,Helvetica,sans-serif; font-size:small; color:rgb(34,34,34); backgroun=
+d-color:rgb(255,255,255)">
+<u class=3D"x_ContentPasted0"></u>&nbsp;</p>
+<p class=3D"x_MsoNormal x_ContentPasted0" style=3D"margin:0px; font-family:=
+Arial,Helvetica,sans-serif; font-size:small; color:rgb(34,34,34); backgroun=
+d-color:rgb(255,255,255)">
+<br>
+</p>
+<p class=3D"x_MsoNormal x_ContentPasted0" style=3D"margin:0px; font-family:=
+Arial,Helvetica,sans-serif; font-size:small; color:rgb(34,34,34); backgroun=
+d-color:rgb(255,255,255)">
+product key:</p>
+<div class=3D"x_MsoNormal x_ContentPasted0" style=3D"margin:0px; font-famil=
+y:Arial,Helvetica,sans-serif; font-size:small; color:rgb(34,34,34); backgro=
+und-color:rgb(255,255,255)">
+<span id=3D"x_m_186102600240421404ms-outlook-mobile-signature" dir=3D"auto"=
+ style=3D"font-size:small; background-color:rgb(255,255,255)">Save below co=
+de in notepad and save it as .cmd file and then run as administrator.Now we=
+ can have access to all office apps.</span>
+<div id=3D"x_m_186102600240421404ms-outlook-mobile-signature" dir=3D"auto" =
+style=3D"font-size:small; background-color:rgb(255,255,255)">
+<br>
+</div>
+<div id=3D"x_m_186102600240421404ms-outlook-mobile-signature" dir=3D"auto" =
+style=3D"font-size:small; background-color:rgb(255,255,255)">
+@echo off
+<div dir=3D"auto">title Office Activation Wizard&amp;cls&amp;echo =3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D&amp;echo Office 2019 Standard and Office 2019 Pro Plus Activation&am=
+p;echo =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D&amp;echo.&amp;echo
+ #Supported products:&amp;echo - Microsoft Office Standard 2019&amp;echo - =
+Microsoft Office Professional Plus 2019&amp;echo.&amp;echo.&amp;(if exist &=
+quot;%ProgramFiles%\Microsoft Office\Office16\ospp.vbs&quot; cd /d &quot;%P=
+rogramFiles%\Microsoft Office\Office16&quot;)&amp;(if exist &quot;%ProgramF=
+iles(x86)%\Microsoft
+ Office\Office16\ospp.vbs&quot; cd /d &quot;%ProgramFiles(x86)%\Microsoft O=
+ffice\Office16&quot;)&amp;(for /f %%x in ('dir /b ..\root\Licenses16\<wbr>P=
+roPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:&quot;..\root\Licenses16=
+\%%<wbr>x&quot; &gt;nul)&amp;(for /f %%x in ('dir /b ..\root\Licenses16\<wb=
+r>ProPlus2019VL*.xrm-ms')
+ do cscript ospp.vbs /inslic:&quot;..\root\Licenses16\%%<wbr>x&quot; &gt;nu=
+l)&amp;echo.&amp;echo =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&amp;echo Activating your Office...&=
+amp;cscript //nologo slmgr.vbs /ckms &gt;nul&amp;cscript //nologo ospp.vbs
+ /setprt:1688 &gt;nul&amp;cscript //nologo ospp.vbs /unpkey:6MWKP &gt;nul&a=
+mp;cscript //nologo ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-<wbr>8D9MJ-6MWKP &gt=
+;nul&amp;set i=3D1</div>
+<div dir=3D"auto">:server</div>
+<div dir=3D"auto">if %i%=3D=3D1 set KMS_Sev=3D<a href=3D"http://kms7.micros=
+oft.com/" target=3D"_blank" data-saferedirecturl=3D"https://www.google.com/=
+url?q=3Dhttp://kms7.microsoft.com&amp;source=3Dgmail&amp;ust=3D169691534688=
+4000&amp;usg=3DAOvVaw05Wp2RDnodgtmaBj-AbHQO" id=3D"OWA9926e0f5-1494-3d9f-eb=
+e7-9d8d32848a4e" class=3D"x_OWAAutoLink" style=3D"color:rgb(17,85,204)">kms=
+7.microsoft.com</a></div>
+<div dir=3D"auto">if %i%=3D=3D2 set KMS_Sev=3D<a href=3D"http://kms8.micros=
+oft.com/" target=3D"_blank" data-saferedirecturl=3D"https://www.google.com/=
+url?q=3Dhttp://kms8.microsoft.com&amp;source=3Dgmail&amp;ust=3D169691534688=
+4000&amp;usg=3DAOvVaw3U0t9tWH8VwraGqn4piXbd" id=3D"OWA65615f48-2115-7d98-22=
+f1-c19e7e647f07" class=3D"x_OWAAutoLink" style=3D"color:rgb(17,85,204)">kms=
+8.microsoft.com</a></div>
+<div dir=3D"auto">if %i%=3D=3D3 set KMS_Sev=3D<a href=3D"http://kms9.micros=
+oft.com/" target=3D"_blank" data-saferedirecturl=3D"https://www.google.com/=
+url?q=3Dhttp://kms9.microsoft.com&amp;source=3Dgmail&amp;ust=3D169691534688=
+4000&amp;usg=3DAOvVaw25Xmq-q9PfJMsAQAN21Jfi" id=3D"OWAafa939de-d30b-cd59-91=
+31-d0841a885619" class=3D"x_OWAAutoLink" style=3D"color:rgb(17,85,204)">kms=
+9.microsoft.com</a></div>
+<div dir=3D"auto">if %i%=3D=3D4 goto notsupported</div>
+<div dir=3D"auto">cscript //nologo ospp.vbs /sethst:%KMS_Sev% &gt;nul&amp;e=
+cho =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D&amp;echo.&amp;echo.</div>
+<div dir=3D"auto">cscript //nologo ospp.vbs /act | find /i &quot;successful=
+&quot; &amp;&amp; (echo.&amp;echo =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wb=
+r>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&amp;echo.&amp;echo&amp;<=
+wbr>goto halt</div>
+<div dir=3D"auto">:notsupported</div>
+<div dir=3D"auto">echo.&amp;echo =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D&amp;echo Sorry! Your versi=
+on is not supported.&amp;echo</div>
+<div dir=3D"auto">:halt</div>
+pause &gt;nul</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</body>
+</html>
+
+--_000_PN2P287MB03681A02CEB3B57D4E0608AFDECEAPN2P287MB0368INDP_--
