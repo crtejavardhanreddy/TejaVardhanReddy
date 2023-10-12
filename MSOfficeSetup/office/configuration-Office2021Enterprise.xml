@@ -19,15 +19,9 @@
 <Configuration>
 
   <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
-    <Product ID="ProPlus2021Volume">
+    <Product ID="">
       <Language ID="en-us" />
       <ExcludeApp ID="Lync" />
-    </Product>
-    <Product ID="VisioPro2021Volume">
-      <Language ID="en-us" />
-    </Product>
-    <Product ID="ProjectPro2021Volume">
-      <Language ID="en-us" />
     </Product>
   </Add>
 
