@@ -1,0 +1,43 @@
+import os
+from langchain.document_loaders.recursive_url_loader import RecursiveUrlLoader
+from langchain.document_transformers import BeautifulSoupTransformer
+
+# It reads all the text available in the website and store in a text file 
+class TextExtractor:
+    def __init__(self,max_depth = 2, path_to_save_links="./Extracted_links.txt", path_to_save_text="./Content.txt"):
+        self.max_depth = max_depth
+        self.path_to_save_links = path_to_save_links
+        self.path_to_save_text = path_to_save_text 
+
+    # RecursiveUrlLoader is a method to load all URLs under a root directory and is provided by langchain
+    # BeautifulSoupTransformer is a method for parsing HTML content
+    def Text_Extractor(self, url):
+        loader = RecursiveUrlLoader(url=url, max_depth=self.max_depth)
+        bs_transformer = BeautifulSoupTransformer()
+        docs = bs_transformer.transform_documents(loader.load(), tags_to_extract=["p", "div"])
+        return docs
+
+    # The links are loaded from a text file
+    def Load_links(self):
+        with open(self.path_to_save_links, "r", encoding="utf-8") as file:
+            links = [link.strip() for link in file.readlines()]
+        return links
+
+    # The text extraction and saved to a specified file
+    def Extract_and_save_text(self, links):
+        file_path = self.path_to_save_text
+        if os.path.exists(file_path):
+            os.remove(file_path)
+
+        for link in links:
+            docs = self.Text_Extractor(link)
+            with open(self.path_to_save_text, "+a", encoding="utf-8") as f:
+                for doc in docs:
+                    f.write(doc.page_content + "\n")
+
+            return docs
+        
+    def Extract_text(self):
+        links = self.Load_links()
+        docs = self.Extract_and_save_text(links)
+        return docs
