@@ -2,10 +2,6 @@ import PyPDF2
 import os
 from langchain.document_loaders.recursive_url_loader import RecursiveUrlLoader
 from langchain.document_transformers import BeautifulSoupTransformer
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
-from langchain.document_loaders import PyPDFLoader
-
 
 # It reads all the text available in the website and store in a text file 
 class TextExtractor:
@@ -42,19 +38,9 @@ class TextExtractor:
 
             return docs
         
-    def Save_pdf(self,docs):
-        pdf_writer = PyPDF2.PdfWriter()
-
-        for page in docs:
-            pdf_writer.add_page(page)
-
-        with open("Content.pdf","wb") as f:
-            pdf_writer.write(f)
-        
     def Extract_text(self):
         links = self.Load_links()
         docs = self.Extract_and_save_text(links)
-        self.Save_pdf(docs)
         return docs
     
     # Extract_text()

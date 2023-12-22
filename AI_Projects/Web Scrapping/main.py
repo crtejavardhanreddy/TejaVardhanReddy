@@ -3,9 +3,6 @@ from Link_scrapper import LinkScrapper
 from Text_extractor import TextExtractor
 
 def main(head_url,max_length,num_of_urls):
-    # head_url = input("Enter the URL you want to scrape: ")
-    # max_length = int(input("Enter the maximum URLs to store: "))
-    # num_of_urls = int(input("Enter the number of URLs to scrape from each website: "))
 
     # Web scraping
     web_scraper = LinkScrapper(head_url, max_length, num_of_urls)
@@ -16,11 +13,11 @@ def main(head_url,max_length,num_of_urls):
     TextExtractor().Extract_text()
     
     print("All the text got scrapped")
-    acknowledgment = "All the links and text got saved"
+    acknowledgment = "Web Scrapping done..."
     return acknowledgment
 
 if __name__ == "__main__":
-    # Create Gradio interface
+#     # Create Gradio interface
     interface = gr.Interface(
     fn = main,
     inputs = [
