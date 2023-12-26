@@ -2,3 +2,10 @@ body  {
     background-color: aqua;
     text-align: center;
 }
+
+h1 {
+    background-color: aliceblue;
+}
+p {
+    background-color: black;
+}
