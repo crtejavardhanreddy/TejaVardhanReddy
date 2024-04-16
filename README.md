@@ -1,2 +1,2 @@
 # Radhamma
-This repo is all about my skill development
+This repo is all about my skill development.
